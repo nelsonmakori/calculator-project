@@ -42,6 +42,14 @@ button:hover{
 }
 p{
   margin: 0;
+  color: white;
+}
+.display input{
+  background-color: black;
+  margin-left: 93px;
+  border: none;
+  color: white;
+
 }
 
 .cal-symbol{
@@ -52,5 +60,8 @@ h1{
   text-align:center ;
   text-decoration:underline;
   font-style:italic;
-  color: darkslategrey;
+  color: rgb(69, 92, 223);
+}
+body{
+  background-color:#63e499;
 }
