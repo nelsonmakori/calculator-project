@@ -8,6 +8,7 @@ button{
   background-color: darkgrey;
   color: white;
   cursor: pointer;
+  transition: 0.5s;
   
 }
 button:hover{
@@ -28,7 +29,7 @@ button:hover{
   margin-left: 0px;
   margin-bottom: 10px;
 }
-.zero{
+#zero{
   padding-right: 95px;
   width: 10px;
   
@@ -40,10 +41,7 @@ button:hover{
   font-size:27px;
 
 }
-p{
-  margin: 0;
-  color: white;
-}
+
 .display input{
   background-color: black;
   margin-left: 93px;
@@ -60,8 +58,23 @@ h1{
   text-align:center ;
   text-decoration:underline;
   font-style:italic;
-  color: rgb(69, 92, 223);
+  color: #120902;
 }
 body{
   background-color:#63e499;
+}
+.operator{
+  background-color: rgb(255, 128, 0);
+}
+#display{
+  color:white ;
+  padding-left: 25px;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  text-align: left;
+  height:35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
 }
